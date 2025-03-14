@@ -13,10 +13,6 @@ footer {
     margin-bottom: 12px;
 }
 
-#home {
-    margin-top: 96px;
-}
-
 #contact {
     padding-bottom: 60px;
 }
@@ -27,7 +23,7 @@ footer {
 }
 
 .navbar-brand {
-    font-size: 30px;
+    font-size: 24px;
     color: #FFFFFF;
 }
 
@@ -36,13 +32,8 @@ footer {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    font-size: 30px;
+    font-size: 24px;
     color: #FFFFFF;
-}
-
-/* display background dark color on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color: #778899;
 }
 
 .navbarScroll.navbarLight .nav-link,
@@ -63,29 +54,21 @@ footer {
     border-bottom: 2px solid;
     border-top: 2px solid;
     margin-bottom: 24px;
+    padding-bottom: 10px;
     background-color: #778899;    
 }
 
-/* banner */
-#home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    overflow: hidden;
-}
-
-#home h1 {
+main h1 {
     font-size: 48px;
+    text-align: center;
     color: #778899;
-    text-decoration: underline;
-    margin-bottom: 20px;
+    margin-top: 150px;
 }
 
-.banner-img {
-    width: 100%; /* L'image prend toute la largeur de son conteneur */
-    height: auto; /* Garde les proportions */
-    max-width: 1296px/* Empêche l’image de dépasser sa taille d’origine */
+#job {
+    font-size: 48px;
+    text-align: center;
+    color: #778899;
 }
 
 /* about */
@@ -119,7 +102,7 @@ footer {
 /* portfolio */
 .space-card {
     display: flex;
-    margin-bottom: 20px;
+    margin-top: 24px;
 }
 .card {
     min-height: 350px;
@@ -172,19 +155,10 @@ footer {
 }
 
 /* Media queries */
-
 @media (max-width: 1024px) {
-    .banner-img {
-        height: auto;
-        max-width: 1024px;
-    }
-
     @media (orientation: portrait) {
         .navbar-collapse {
             margin-top: 30px;
-        }
-        .navbar-dark .navbar-nav .nav-link {
-            font-size: 28px;
         }
         #about-image {
             display: flex;
@@ -216,14 +190,12 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .banner-img {
-        height: auto;
-        max-width: 768px;
-    }
-    #about-image {
-        display: flex;
-        justify-content: center;
-    }
+    #about,
+    #portfolio,
+    #skills,
+    footer {
+        margin-top: 40px;
+    }    
     .imageAboutPage {
         width: 50%;
     }
@@ -232,13 +204,14 @@ footer {
     }
 
     @media (orientation: portrait) {
-        .navbar-brand {
-            font-size: 24px;
-        }        
         .navbar-dark .navbar-nav .nav-link {
             font-size: 22px;
         }
-        #home h1 {
+        main h1 {
+            font-size: 28px;
+            margin-top: 100px;
+        }
+        #job {
             font-size: 28px;
         }
         .about-column {
