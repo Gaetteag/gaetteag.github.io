@@ -1,1 +1,1 @@
-# Portfolio de Gaëtan Gardié - Testeur logiciel / QA
+# Portfolio de Gaëtan Gardié - Testeur technico-fonctionnel
