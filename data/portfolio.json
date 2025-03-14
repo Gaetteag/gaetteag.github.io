@@ -1,24 +1,24 @@
 [
     {
-        "image": "altidev.PNG",
+        "image": "altidev.webp",
         "title": "Altidev",
         "text": "Réalisation des tests sur la nouvelle version en développement d'Action Tracker",
         "link": "https://www.actiontracker.biz/"
     },    
     {
-        "image": "payforge.png",
+        "image": "payforge.webp",
         "title": "PayForge",
         "text": "Conception d'une stratégie de test pour une application",
         "link": "https://github.com/Gaetteag/PayForge.git"
     },
     {
-        "image": "724events.png",
+        "image": "724events.webp",
         "title": "724events",
         "text": "Réalisation d'une campagne de tests complète sur le site web",
         "link": "https://github.com/Gaetteag/724events.git"
     },
     {
-        "image": "ecoblissbath.png",
+        "image": "ecoblissbath.webp",
         "title": "Eco Bliss Bath",
         "text": "Automatisation des tests fonctionnels pour le site web",
         "link": "https://github.com/Gaetteag/Eco-Bliss-Bath.git"
