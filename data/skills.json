@@ -2,31 +2,31 @@
     {
         "image": "test.webp",
         "title": "Test",
-        "text": "Automatisation, Définition d’une stratégie de test, Rédaction d’un cahier de recette"
+        "text": "Automatisation des tests, Définition et mise en oeuvre d’une stratégie de test, Rédaction et exécution d’un cahier de recette"
     },
     {
         "image": "gestion-de-projet.webp",
         "title": "Gestion de projet",
-        "text": "Analyse des besoins client, Définition d’une solution technique répondant aux besoins fonctionnels, Planification du projet"
+        "text": "Collaboration avec les équipes de développement, Suivi des corrections et validation des livrables"
     },
     {
         "image": "optimisation-et-debug.webp",
         "title": "Optimisation et debug",
-        "text": "Identification des anomalies et corrections, Optimisation SEO" 
+        "text": "Identification et suivi des anomalies, Validation des corrections" 
     },
     {
         "image": "html-css.webp",
         "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives, Utilisation de maquettes Figma, Développement d’animations CSS"
+        "text": "Vérification de l’accessibilité et du responsive, Validation de la conformité aux maquettes"
     },
     {
         "image": "js.webp",
         "title": "JavaScript",
-        "text": "Manipulation du DOM, Création d’éléments dynamiques, Gestion de données de formulaires"
+        "text": "Ecriture de scripts de test, Vérification des scripts et de la logique métier"
     },
     {
         "image": "react.webp",
         "title": "React",
-        "text": "Création d’applications React, Création de composants, Manipulation des états"
+        "text": "Tests des composants, Vérification de l’état et des props"
     }
 ]
