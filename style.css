@@ -3,12 +3,14 @@
 #about,
 #skills,
 #portfolio,
+#universe,
 footer {
     margin-top: 72px;
 }
 #about h2,
 #skills h2,
 #portfolio h2,
+#universe h2,
 #contact h2 {
     margin-bottom: 12px;
 }
@@ -44,6 +46,7 @@ footer {
 #about h2,
 #skills h2,
 #portfolio h2,
+#universe h2,
 #contact h2 {
     font-size: 48px;
     color: #FFFFFF;
@@ -123,7 +126,7 @@ main h1 {
 .card-title {
     margin-bottom: 16px;
 }
-.skillsText.card {
+.skillsText {
     height: 440px;
     cursor: pointer;
 }
@@ -140,6 +143,20 @@ main h1 {
     text-align: center;
 }
 .skillsText:hover {
+    border: 1px solid #008000;
+    cursor: auto;
+}
+
+/* universe */
+.universeText {
+    height: 30px;
+    cursor: pointer;
+}
+#universe li {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.universeText:hover {
     border: 1px solid #008000;
     cursor: auto;
 }
