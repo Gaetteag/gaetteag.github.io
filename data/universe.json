@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Outils de test",
+        "text": "Cypress, Playwright, Postman"
+    },
+    {
+        "title": "Gestion des tests / projets",
+        "text": "Jira, Xray, Squash, GitHub"
+    },
+    {
+        "title": "Front-end / Back-end",
+        "text": "HTML, CSS, JavaScript, Java, React, SQL" 
+    }
+]
