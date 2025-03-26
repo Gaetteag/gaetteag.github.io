@@ -131,7 +131,7 @@ function createUniverseFromJSON() {
                     ul.appendChild(li);
                 });
 
-                // **Ajout du 'ul' dans la carte à la place du 'p'**
+                // Addition of 'ul' in the card instead of 'p'
                 card.innerHTML = `
                     <div class="card universeText">
                         <div class="card-body">
